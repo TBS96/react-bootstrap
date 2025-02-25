@@ -1,8 +1,31 @@
-# React + Vite
+# React + Vite + Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Install Bootstrap
+```bash
+npm i react-bootstrap bootstrap
+```
+## Importing the Bootstrap CSS in `main.jsx`
+```bash
+import 'bootstrap/dist/css/bootstrap.min.css'
+```
 
-Currently, two official plugins are available:
+## Folder structure
+```bash
+.
+├── eslint.config.js
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   └── react.svg
+│   └── main.jsx
+└── vite.config.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4 directories, 11 files
+```
